@@ -23,3 +23,7 @@ try:
 except NameError:
     print('You tried printing out the wrong variable value!')
 
+#  This does not handle an exception, rather it is the equivalent of "throwing" an exception in Java.
+favorite_food = 'pizza'
+if favorite_food != int:
+    raise ValueError(favorite_food)
