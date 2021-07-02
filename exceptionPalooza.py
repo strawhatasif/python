@@ -10,9 +10,9 @@ try:
 except ZeroDivisionError as error:
     print('Cannot divide by zero...handling this exception: ', error)
 
-#  If someone doesn't provide their favorite color, handle that error!
+#  If someone doesn't enter an age, handle that error!
 try:
-    favorite_color = int(input('What is your age? '))
+    user_age = int(input('What is your age? '))
 except ValueError:
     print('That is not a valid value! Please enter your age!')
 
