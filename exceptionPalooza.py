@@ -24,6 +24,8 @@ except NameError:
     print('You tried printing out the wrong variable value!')
 
 #  This does not handle an exception, rather it is the equivalent of "throwing" an exception in Java.
+ACCEPTABLE_ANSWER = 'butter chicken'
 favorite_food = 'pizza'
-if favorite_food != int:
-    raise ValueError(favorite_food)
+#  Um, hello! Butter chicken is delish!
+if ACCEPTABLE_ANSWER != favorite_food:
+    raise ValueError(favorite_food.title() + ' is not an acceptable answer!')
