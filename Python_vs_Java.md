@@ -1,5 +1,8 @@
 ### The following demonstrates some differences between Python and Java.
 
+#### What did I use?
+* Python version 3.9.5
+* Java SE 16
 
 ### Time honored tradition of "Hello World!"
 
@@ -15,7 +18,7 @@ public class HelloWorld {
     }
 }
 ```
-#### Observations:
+#### Initial observations:
 * Python is simple. Only requires passing a string to a built in function.
 * Java requires an individual to understand at least three concepts; a class, a method, and method parameters. 
     * https://docs.oracle.com/javase/tutorial/getStarted/application/index.html
@@ -99,11 +102,8 @@ public class CustomGreeter {
     }
 }
 ```
-#### What did I use?
-* Python version 3.9.5
-* Java SE 16
 
-#### My observations:
+#### Additional observations:
 * *Python is concise*
 * *Java is verbose*
 * No semicolons, curly braces, or parenthesis in Python!
