@@ -13,8 +13,6 @@ def main():
         words = line.split(',')
         #  removing the blank line separator at the end of the line.
         real_name = words[1].rstrip('\n')
-        print('ID: ' + words[0])
-        print('THIS IS MY REAL NAME!!! ' + real_name)
         # write the super hero name to a new file
         write_super_hero_names(words[0], real_name)
 
