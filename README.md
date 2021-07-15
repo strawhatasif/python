@@ -14,5 +14,5 @@ For my graduate school course, I am renting a digital version of this textbook:
 
 ## *How do I run these programs?*
 * Run these programs using your terminal or command line tool.
-* Type `python nameOfProgram.py` 
-    * For example, `python printFavoriteThings.py`
+* Type `python name_of_program.py` 
+    * For example, `python print_favorite_things.py`
