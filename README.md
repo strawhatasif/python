@@ -32,7 +32,7 @@ For my graduate school course, I am renting a digital version of this textbook:
 
 
 * run the `flask run` command
-*Invoke the API using your favorite API testing tool (OR, in the browser!).
+* Invoke the API using your favorite API testing tool (OR, in the browser!).
     * I prefer Postman 
     * `GET` all users - `http://127.0.0.1:5000/users/`
     * `GET` one user - `http://127.0.0.1:5000/users/<id>`
