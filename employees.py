@@ -35,7 +35,7 @@ class IndividualContributor(Employee):
 
 # The Individual Contributor class is a subclass of Employee
 class Management(Employee):
-    # constants for bonus (25% for mid, 35% for executive, and 40% for senior management)
+    # constants for bonus (25% for mid, 35% for executive, and 45% for senior management)
     MID_MANAGEMENT_PERCENTAGE = 0.25
     EXECUTIVE_MANAGEMENT_PERCENTAGE = 0.35
     SENIOR_MANAGEMENT_PERCENTAGE = 0.45
