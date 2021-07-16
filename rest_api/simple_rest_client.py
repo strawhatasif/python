@@ -7,14 +7,14 @@ class SimpleRestClient:
     def __init__(self):
         print('initialized SimpleRestClient')
 
+    # returns all users
     def get_all_users(self):
         response = requests.get('https://jsonplaceholder.typicode.com/users')
-        print('the status code is? ' + str(response.status_code))
-        print(response.json())
+
         return response.json()
 
+    # returns a single user based on an identifier
     def get_single_user(self, identifier):
         response = requests.get('https://jsonplaceholder.typicode.com/users/' + identifier)
-        print('the status code is? ' + str(response.status_code))
-        print(response.json())
+
         return response.json()
