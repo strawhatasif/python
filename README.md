@@ -19,7 +19,7 @@ For my graduate school course, I am renting a digital version of this textbook:
   
 ## *What about unit tests?*
 * I explored a simple example for the `Greeting` class
-* Using *pytest*, run this command `pytest -q test_greeting.py`
+* Using *TestCase* from `unittest`, right click on `test_greeting.py` and run unit tests.
   
 ## *Bonus: files in the `rest_api` directory*
 * On my own, I explored creating a simple REST API that invokes a public REST API.
