@@ -17,6 +17,10 @@ For my graduate school course, I am renting a digital version of this textbook:
 * Type `python name_of_program.py` 
     * For example, `python print_favorite_things.py`
   
+## *What about unit tests?*
+* I explored a simple example for the `Greeting` class
+* Using *pytest*, run this command `pytest -q test_greeting.py`
+  
 ## *Bonus: files in the `rest_api` directory*
 * On my own, I explored creating a simple REST API that invokes a public REST API.
   * This uses the *Flask* framework - https://flask.palletsprojects.com/en/2.0.x/quickstart/#
