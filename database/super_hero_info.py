@@ -23,13 +23,13 @@ def collect_super_hero_name():
 
 def retrieve_real_name(super_hero_name):
     conn.execute("SELECT real_name FROM SUPER_HERO_NAMES WHERE super_hero_name=?", (super_hero_name,))
-    print('Real Name: ', conn.fetchone())  # we know there's only result
+    print('Real Name: ', conn.fetchone())  # we know there's only one result
     connection.commit()
 
 
 def retrieve_universe_for_super_hero(super_hero_name):
     conn.execute('SELECT universe FROM HERO_UNIVERSE WHERE super_hero_name=?', (super_hero_name,))
-    print('Universe: ', conn.fetchone())  # we know there's only result
+    print('Universe: ', conn.fetchone())  # we know there's only one result
     connection.commit()
 
 
