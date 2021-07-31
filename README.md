@@ -21,7 +21,12 @@ For my graduate school course, I am renting a digital version of this textbook:
 * I explored a simple example for the `Greeting` class
 * Using *TestCase* from `unittest`, right click on `test_greeting.py` and run unit tests.
   
-## *Bonus: files in the `rest_api` directory*
+## *Bonus 1: files in the `database` directory*
+* I explored an elementary example of connecting to a built in database called SqLite
+* `database.py` creates the database, tables, and inserts data
+* `super_hero_info.py` accepts user input and returns super hero information from this database.
+
+## *Bonus 2: files in the `rest_api` directory*
 * On my own, I explored creating a simple REST API that invokes a public REST API.
   * This uses the *Flask* framework - https://flask.palletsprojects.com/en/2.0.x/quickstart/#
 * It calls one API (https://jsonplaceholder.typicode.com/) and returns fake user data.
