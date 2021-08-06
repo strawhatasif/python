@@ -34,7 +34,7 @@ def collect_employee_name():
     employee_name = input('What is your full name? ')
     while employee_name == '' or len(employee_name) < 1:
         print('Please enter your name!')
-        input('Let us try again. What is your full name? ')
+        employee_name = input('Let us try again. What is your full name? ')
 
     return employee_name
 
@@ -72,7 +72,7 @@ def collect_management_level():
     management_level = input('What is your level of management? ')
     while management_level == '' or management_level not in ['MID', 'EXECUTIVE', 'SENIOR']:
         print('Please enter a valid value!')
-        input('Let us try again. What is your level of management? ')
+        management_level = input('Let us try again. What is your level of management? ')
 
     return management_level
 
